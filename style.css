@@ -5,12 +5,17 @@
   list-style-type: none;
   font-family: sans-serif;
 }
+.container {
+  width: 1200px;
+  margin: auto;
+}
 .text-primary {
   color: #fb9d5c;
   font-weight: 500;
   font-size: 18px;
   letter-spacing: 1.5px;
 }
+
 .btn-primary {
   background-color: #fb9d5c;
   border: 0;
@@ -24,10 +29,7 @@
 .btn-primary:hover {
   background-color: #d38c59;
 }
-.container {
-  width: 1200px;
-  margin: auto;
-}
+
 /* private */
 
 /* hero section css */
@@ -79,4 +81,42 @@
 
 .hero_right > img {
   overflow: hidden;
+}
+
+/* sponsor section */
+
+.sponsor_list {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-around;
+}
+.sponsor_list > div {
+  margin: 50px 2px;
+}
+
+/* service section */
+.service {
+  margin: 80px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.service-heading {
+  width: 50%;
+  text-align: center;
+}
+.service_list {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 50px;
+  margin: 100px 0px;
+  text-align: center;
+}
+.service_card {
+  border: 1px solid rgba(141, 136, 136, 0.404);
+  padding: 10px;
+  border-radius: 2px;
+}
+.card_heading {
+  margin: 20px 5px;
 }
